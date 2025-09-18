@@ -121,7 +121,7 @@ flowchart TD
     L --> N{x - d < 0}
     N -- Нет --> O[count = 4]
     N -- Да --> P[count = 3]
-    G --> Q[/Вывод n/]
+    G --> Q[/Вывод count/]
     M --> Q
     J --> Q
     O --> Q
